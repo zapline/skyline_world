@@ -1,20 +1,56 @@
 <style lang="less">
 </style>
 <template>
-  <view class="container">
-    Hello world
+  <view class="page">
+    <view class="weui-panel">
+      <view class="weui-panel__hd">公告</view>
+      <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">天际线世界小程序发布！</view>
+          <view class="weui-media-box__desc">在这里可以了解到都市天际线的最新资讯，还可以和其他玩家一起交流成长！</view>
+          <view class="weui-media-box__info">
+            <view class="weui-media-box__info__meta">zapline</view>
+            <view class="weui-media-box__info__meta">2018.11.9</view>
+            <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">QQ群：421385269</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="page__bd">
+      <view class="weui-panel">
+        <view class="weui-panel__hd">资讯</view>
+        <view class="weui-panel__bd">
+          <view class="weui-media-box weui-media-box_small-appmsg">
+            <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>工业dlc发布</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>都市天际线之成都系列开启</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </template>
-
 <script>
-  import wepy from 'wepy'
 
-  export default class Index extends wepy.page {
-    config = {
-      navigationBarTitleText: 'test'
-    }
-    onLoad() {
-      console.log('onLoad')
-    }
-  }
+import wepy from 'wepy';
+
+export default class Index extends wepy.page {
+  config = {
+    navigationBarTitleText: '首页'
+  };
+  data = {};
+
+  onLoad() {}
+}
 </script>

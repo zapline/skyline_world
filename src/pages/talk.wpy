@@ -1,0 +1,20 @@
+<style lang="less">
+</style>
+<template>
+  <view class="container">
+    QQ群：421385269
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Talk extends wepy.page {
+    config = {
+      navigationBarTitleText: '交流'
+    }
+    onLoad() {
+      console.log('onLoad')
+    }
+  }
+</script>

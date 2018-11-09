@@ -1,0 +1,72 @@
+<style lang="less">
+</style>
+<template>
+  <view class="page">
+    <view class="page__bd">
+      <view class="weui-panel">
+        <view class="weui-panel__hd">城市</view>
+        <view class="weui-panel__bd">
+          <view class="weui-media-box weui-media-box_small-appmsg">
+            <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>新日暮里</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>狮城</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>珠海</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>崇明岛</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>芜湖</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>扬州</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>成都</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class World extends wepy.page {
+    config = {
+      navigationBarTitleText: '世界'
+    }
+    onLoad() {
+      console.log('onLoad')
+    }
+  }
+</script>

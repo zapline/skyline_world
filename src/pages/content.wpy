@@ -1,0 +1,125 @@
+<style lang="less">
+</style>
+<template>
+  <view class="page">
+    <view class="page__bd">
+      <view class="weui-panel">
+        <view class="weui-panel__hd">dlc介绍
+        </view>
+        <view class="weui-panel__bd">
+          <view class="weui-media-box weui-media-box_small-appmsg">
+            <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>入夜</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>下雪</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>灾难</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>大量交通</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>绿色城市</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>公园生活</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>工业</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="weui-panel">
+        <view class="weui-panel__hd">mod介绍
+        </view>
+        <view class="weui-panel__bd">
+          <view class="weui-media-box weui-media-box_small-appmsg">
+            <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>25/81格解锁</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>CSL Map View</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>Move It!</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>City Vitals Watch</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>Dynamic Resolution</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>Clouds & Fog Toggler</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>First-person Auto-walking</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Content extends wepy.page {
+    config = {
+      navigationBarTitleText: '内容'
+    }
+    onLoad() {
+      console.log('onLoad')
+    }
+  }
+</script>
